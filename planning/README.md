@@ -1,6 +1,5 @@
 # Wordhunt
 
-## Description :
 A simple word search game so that users can play against each other to see who will
 be able to find all the words first
 
