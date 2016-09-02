@@ -1,4 +1,5 @@
 var express = require('express');
+var cors = require('cors')
 var mongoose = require('./db/schema');
 
 var Data = mongoose.model("Data");
@@ -8,6 +9,7 @@ var app = express();
 
 
 app.use(parser.json({extended: true}));
+app.use(cors());
 
 app.get("/", function(req, res){
   res.send("Hi World");
