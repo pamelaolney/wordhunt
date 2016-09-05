@@ -4,6 +4,7 @@
   angular
   .module("wordhunt", [
     "ui.router",
+    "ngAnimate",
     "data"
   ])
   .config([

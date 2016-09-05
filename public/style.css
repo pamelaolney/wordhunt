@@ -1,0 +1,12 @@
+body{
+  background: pink;
+}
+
+.border{
+  border: 2px solid blue;
+  border-radius: 50px;
+}
+
+.class{
+  background: white;
+}
