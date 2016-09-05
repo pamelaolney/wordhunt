@@ -3,13 +3,13 @@
 <div ng-app="wordhunt" ng-controller="DataIndexController">
 
 
-  <!-- <div ng-repeat="data in DataIndexViewModel.data">
-    <p>{{data.letter}}</p>
-  </div> -->
+  <div ng-repeat="data in DataIndexViewModel.data">
+    <p data-ng-click="DataIndexViewModel.check(data.letter)">{{data.letter}}</p>
+  </div>
 
-  <button ng-click="DataIndexViewModel.shuffle()">button</button>
+  <!-- <button ng-click="DataIndexViewModel.shuffle()">button</button> -->
 
-  <table>
+  <!-- <table>
     <tr>
       <td ng-repeat="data in DataIndexViewModel.data.slice(0, 4)">{{data.letter}}</td>
     </tr>
@@ -22,5 +22,7 @@
     <tr>
       <td ng-repeat="data in DataIndexViewModel.data.slice(15, 19)">{{data.letter}}</td>
     </tr>
-  </table>
+  </table> -->
+
+
 </div>

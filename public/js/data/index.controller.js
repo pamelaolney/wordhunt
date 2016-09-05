@@ -15,8 +15,15 @@
         x = this.data[--i], this.data[i] = this.data[j], this.data[j] = x);
         return this.data;
       };
-    };
 
+
+    this.check = function(letter){
+        if( letter === "A"){
+          alert("You did it!!!");
+        }
+    }
+
+  };
 
 
   }());
