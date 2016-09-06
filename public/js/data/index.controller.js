@@ -8,7 +8,9 @@
     DataIndexControllerFunction
   ]);
 
+
   function DataIndexControllerFunction(LetterFactory){
+    this.words = ["cat", "dog", "pet", "wolf", "lizard", "lamb"]
     this.data = LetterFactory.query();
     this.shuffle = function(o){
       for(var j, x, i = this.data.length; i; j = Math.floor(Math.random() * i),

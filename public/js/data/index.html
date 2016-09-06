@@ -1,7 +1,9 @@
 <h2>Search for the letters in the following word below</h2>
 
 
-<div class="word">FOCUS</div>
+<div class="word" >
+  <p ng-repeat="word in DataIndexViewModel.words.slice(0, 1)">{{word}}</p>
+</div>
 
 <div class=gameboard ng-app="wordhunt" ng-controller="DataIndexController">
 
