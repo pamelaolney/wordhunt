@@ -3,6 +3,7 @@
   (function(){
     angular
     .module("data", [
+      "ngAnimate",
       "ngResource"
     ]);
 

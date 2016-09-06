@@ -18,12 +18,12 @@
 
 
     this.check = function(letter){
-        if( letter === "A"){
+        if( letter === "F" || letter === "O" || letter === "C" || letter === "U" || letter === "S"){
           alert("You did it!!!");
         }
     }
 
-  };
 
+  };
 
   }());
