@@ -14,7 +14,7 @@
 
   <table>
     <tr>
-      <td ng-repeat="data in DataIndexViewModel.data.slice(14, 25)"  data-ng-click="DataIndexViewModel.check(data.letter)">{{data.letter}}</td>
+      <td class="class" ng-class="{'class': !circle, 'border': data.circle }" ng-repeat="data in DataIndexViewModel.data.slice(14, 25)"  data-ng-click="DataIndexViewModel.check(data, letter)">{{data.letter}}</td>
       <td ng-repeat="data in DataIndexViewModel.data.slice(15, 26)" data-ng-click="DataIndexViewModel.check(data.letter)">{{data.letter}}</td>
     </tr>
     <tr>

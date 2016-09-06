@@ -50,3 +50,16 @@ td:hover{
   color: white;
   background: black;
 }
+
+.class{
+
+}
+
+.border{
+  border: 2px solid blue;
+  border-radius: 30px;
+}
+
+p{
+  font-size: 30px;
+}
